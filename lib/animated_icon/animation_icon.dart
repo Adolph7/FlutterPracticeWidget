@@ -39,7 +39,7 @@ class _AnimationIconState extends State<AnimationIcon> with SingleTickerProvider
             _playingIcon();
           },
           child: AnimatedIcon(
-            icon: AnimatedIcons.add_event, 
+            icon: AnimatedIcons.play_pause, 
             progress: _controllerAnimation,
             size: 200,
           ),
